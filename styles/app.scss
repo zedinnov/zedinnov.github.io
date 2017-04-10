@@ -1,0 +1,20 @@
+$brand-color : #53D769;
+$brand-secondary-color: #3B9548;
+
+@import 'mixins';
+
+* {
+    margin:0; padding:0;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+  //@include linear-gradient(90deg, $brand-color, $brand-secondary-color);
+  background: $brand-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
